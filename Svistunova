@@ -1,5 +1,5 @@
-1) унарная f2(x) = 1-x
-2) f1(x,y) = x*y
-3) f7(x,y) = floor((x+y+1)/2)
-4) f9(x,y) = 1 - |x - y|
-5) f13(x,y) = ceil((|1-x|+y)/2)
+1) f2(x) = 1 - x
+2) f1(x,y) = x * y
+3) f7(x,y) = Math.floor(((x + y + 1) / 2))
+4) f9(x,y) = 1 - Math.abs(x - y)
+5) f13(x,y) = Math.ceil(((1 - x + y) / 2))

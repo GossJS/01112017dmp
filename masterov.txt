@@ -1,1 +1,5 @@
-Ответ: 33
+Инверсия: Math.abs(ceil( x+0,5 ) - 2)
+Конъюнкция: Math.floor( (x+y)/2 )
+Дизъюнкция: Math.ceil( (x+y)/2 )
+Эквиваленция:  Math.ceil( -Math.abs(x-y) + 0,5 )
+Импликация: Math.ceil(Math.ceil(y - x + 0,5) - 1,5) + 1
